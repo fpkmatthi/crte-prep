@@ -224,7 +224,7 @@ Get-AdmPwdPassword -ComputerName <computer>
 ```Powershell
 . .\Mail_Sniper.ps1
 
-Get-GlobalAddressList -ExchHostname <mail_server> -exchange -UserName <user> -password <pw> -Verbose
+Get-GlobalAddressList -ExchHostname <mail_server> -UserName <user> -password <pw> -Verbose
 
 # copy list to text file
 
